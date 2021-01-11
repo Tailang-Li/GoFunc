@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package exampleprotobuffer;
+
+import "example_model.proto";
+
+service Example {
+  rpc GetSomething(GetSomethingReq) returns (GetSomethingResp);
+}

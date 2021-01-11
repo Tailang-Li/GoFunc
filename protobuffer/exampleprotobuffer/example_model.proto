@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package exampleprotobuffer;
+
+message GetSomethingReq {
+  int64 someInt64 = 1;
+  string someStr = 2;
+}
+
+message GetSomethingResp {
+  uint64 someUint64 = 1;
+  bool someBool = 2;
+}
